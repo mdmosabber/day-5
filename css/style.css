@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+.col-1 {  width: 8.33%;}
+.col-2 { width: 16.66%;}
+.col-3 { width: 25%;}
+.col-4 { width: 33.33%;}
+.col-5 { width: 41.66%}
+.col-6 { width: 50%;}
+.col-7 { width: 58.33%;}
+.col-8 { width: 66.66%;}
+.col-9 {  width: 75%;}
+.col-10 { width: 83.33%;}
+.col-11 { width: 91.66%;}
+.col-12 { width: 100%;}
+
+[class*="col-"]{
+    float: left;
+    border: 1px solid;
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header-height{
+    height: 100px;
+}
+.menu-height{
+    height: 50px;
+}
+.content-height {
+    height: 640px;
+}
+.header-top {
+    height: 150px;
+}
+.footer-height {
+    height: 50px;
+    margin-bottom: 20px
+}
+.logo-height {
+    height: 200px;
+}
+.top-footer-height {
+    height: 120px;
+}
+
+.main-ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.main-ul li {
+    float: left;
+    width: 120px;
+    border: 1px solid gray;
+}
+.main-ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 47px;
+    padding-top: 15px;
+    background-color:  black;
+    color: white;
+    transition: 2s;
+}
+.main-ul li a:hover {
+    background-color: white;
+    color: #000;
+}
+/*.div-one {*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*background-color: red;*/
+    /*margin: 50px 0 0 50px;*/
+    /*transform: skewY(25deg);*/
+    /*!*border-radius: 100px 100px 0 0;*!*/
+    /*float: left;*/
+/*}*/
+/*.div-two {*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*background-color: red;*/
+    /*margin: 50px 0 0 50px;*/
+    /*transform: skewY(-25deg);*/
+    /*!*border-radius: 100px 100px 0 0;*!*/
+    /*float: left;*/
+    /*margin: 50px 0 0 5px;*/
+/*}*/
+
+/*.div-one {*/
+    /*height: 200px;*/
+    /*width: 20px;*/
+    /*background-color: red;*/
+    /*margin: 50px 0 0 50px;*/
+    /*float: left;*/
+    /*transform: skew(-30deg);*/
+/*}*/
+/*.div-two {*/
+    /*height: 200px;*/
+    /*width: 20px;*/
+    /*background-color: red;*/
+    /*margin: 50px 0 0 50px;*/
+    /*float: left;*/
+    /*margin: 50px 0 0 100px;*/
+    /*transform: skew(30deg);*/
+/*}*/
+/*.div-three {*/
+    /*height: 20px;*/
+    /*width: 175px;*/
+    /*background-color: red;*/
+    /*margin: 180px 0 0 32px;*/
+/*}*/
+.div-three {
+    height: 100px;
+    width: 80px;
+    border: 1px solid red;
+    margin: 50px 0 0 50px;
+    border-right: none;
+    border-radius: 50% 0 0 50%;
+}
